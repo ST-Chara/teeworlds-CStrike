@@ -1,0 +1,59 @@
+﻿levlar
+----------------------
+money for buy: 650€
+
+
+kevlar+hemlet
+----------------------
+money for buy: 1000€
+
+
+hammer
+----------------------
+mine hit			money for kill:	0€		money for buy: 99€	how many add: 3	money for one ammo: 33€		health: 1
+mine freeze			money for kill:	0€		money for buy: 200€	how many add: 5	money for one ammo: 50€		health: 10
+mine kill			money for kill:	5€		money for buy: 300€	how many add: 1	money for one ammo: 300€	health: 0
+smoke   CT&T		money for kill:	0€		money for buy: 300€	how many add: 1	money for one ammo: 300€    health: 1
+flash   CT&T		money for kill:	0€		money for buy: 200€ how many add: 2	money for one ammo: 100€    health: 1
+hammer kill			money for kill:	5€		money for buy: 300€	how many add: 1	money for one ammo: 300€	health: 0
+grenade CT&T		money for kill:	1€		money for buy: 300€	how many add: 1	money for one ammo: 300€    health: 2
+
+
+gun
+----------------------
+USP    CT - خشاب 12 - قوی تر		    money for buy gun: 500€	 how many add ammo: 112		money for ammo: 224€           money for one ammo: 2€    health: 1
+Glock  T  - خشاب 20 - ضعیف تر		    money for buy gun: 400€	 how many add ammo: 140	    money for ammo: 140€           money for one ammo: 1€    health: 1
+Desert CT&T - خشاب 7 - قدرت یه اندازه	money for buy gun: 650€	 how many add ammo: 42		money for ammo: 210€           money for one ammo: 5€    health: 2
+
+shotgun
+----------------------
+FAMAS CT - خشاب 25 - 3تیر همزمان		    money for buy gun: 2250€	how many add ammo: 115		money for ammo: 230€   money for one ammo: 2€   health: 3
+
+
+grenade
+----------------------
+RPG ی باشه ! باید فکر کنم خشاب محدود		money for buy gun: 2250€	        how many add ammo: 115		money for ammo: 230€      money for one ammo:  2€   health: 3
+
+
+rifle
+----------------------
+AWP  CT&T - 	ه خشاب رو کم کنی :)		money for buy gun: 4750€	how many add ammo: 40		money for ammo: 480€   money for one ammo: 12€  health: 2
+M4a  CT - خشاب 30 - رگبار			    money for buy gun: 3100€	how many add ammo: 120		money for ammo: 240€   money for one ammo:  2€  health: 1
+AK47 T - خشاب 30 - رگبار			    money for buy gun: 2500€	how many add ammo: 120		money for ammo: 360€   money for one ammo:  3€  health: 1
+
+
+ninja
+-----------------------
+knife چاقو				    			money for kill:	200€
+
+----------------------
+money for buy: 1000€
+goje.green: jelighe + kolah
+goje.green is typing...
+goje.green: grenade CT&T         score for kill: money for kill: 1€ money for buy: 300€ how many add: 1   health: 2
+
+# گیر کردن
+pC = static_cast<CCharacter *>(GameServer()->m_World.ClosestCharacter(m_Pos, 64, NULL));
+	
+		if(pC)
+			pC->m_Core.m_Vel = vec2((m_Pos.x-pC->m_Core.m_Pos.x)/3, (m_Pos.y-pC->m_Core.m_Pos.y)/3);

@@ -1,0 +1,190 @@
+Hi
+
+[h] Counter Strike [/h] CStrike is an openfng based mod that has the additional items.
+
+[color=green]Active Weapon[/color]: Current active weapon that players have in hands.
+[color=green]SubActive[/color]: Sub active weapon - many items are under any weapons.
+[color=green]Command[/color]: Command to buy from shop.
+[color=green]Default[/color]: Any Players have this item.
+
+first, players items&commands that can be used in the game.
+
+[b][color=red]Red Players items = Terrorists items[/color][/b]
+____________________________________________________________________________________
+[color=red]Active Weapon: NINJA ▶ SubActive: Knife |Command: Default[/color] kill by knife.
+[color=red]Active Weapon: Hammer ▶ SubActive: Hammer |Command: Default[/color] usual hammer.
+[color=red]Active Weapon: Hammer ▶ SubActive: Minehit |Command: /minhit[/color] mine that hit players like a hammer hit.
+[color=red]Active Weapon: Hammer ▶ SubActive: MineFreeze |Command:/minefreeze[/color] mine that freeze others.
+[color=red]Active Weapon: Hammer ▶ SubActive: MineKill |Command: /minekill[/color] mine for killing players.
+[color=red]Active Weapon: Hammer ▶ SubActive: Flash |Command: /flash[/color] make lag (speed) for players.
+[color=red]Active Weapon: Hammer ▶ SubActive: Smoke |Command: /smoke[/color] make lag (accel) for players.
+[color=red]Active Weapon: Hammer ▶ SubActive: Grenade |Command: /grenade[/color] freeze players on impact part. 
+[color=red]Active Weapon: Hammer ▶ SubActive: Shield |Command: /shield[/color] Secure the players from other weapons.
+[color=red]Active Weapon: Gun ⊗ SubActive: Glock |Command: /glock[/color] usual gun.
+[color=red]Active Weapon: Gun ⊗ SubActive: Desert |Command: /desert[/color] gun by high impact.
+[color=red]Active Weapon: Grenade ⊛ SubActive: RPG |Command: /rpg[/color] usual grenade.
+[color=red]Active Weapon: Rifle ⊙ SubActive: AWP |Command: /awp[/color] New Low-speed laser weapon.
+[color=red]Active Weapon: Rifle ⊙ SubActive: AK47 |Command: /ak47[/color] New High-speed laser weapon.
+
+
+
+[b][color=blue]Blue Players items = Counter Terrorists items[/color][/b]
+____________________________________________________________________________________
+[color=blue]Active Weapon: NINJA ▶ SubActive: Knife |Command: Default[/color] kill by knife.
+[color=blue]Active Weapon: Hammer ▶ SubActive: Hammer |Command: Default[/color] usual hammer.
+[color=blue]Active Weapon: Hammer ▶ SubActive: Minehit |Command: /minhit_c[/color] mine that hit players like a hammer hit.
+[color=blue]Active Weapon: Hammer ▶ SubActive: MineFreeze |Command:/minefreeze_c[/color] mine that freeze others.
+[color=blue]Active Weapon: Hammer ▶ SubActive: MineKill |Command: /minekill_c[/color] mine for killing players.
+[color=blue]Active Weapon: Hammer ▶ SubActive: Flash |Command: /flash_c[/color] make lag (speed) for players.
+[color=blue]Active Weapon: Hammer ▶ SubActive: Smoke |Command: /smoke_c[/color] make lag (accel) for players.
+[color=blue]Active Weapon: Hammer ▶ SubActive: Grenade |Command: /grenade_c[/color] freeze players on impact part. 
+[color=blue]Active Weapon: Hammer ▶ SubActive: Shield |Command: /shield_c[/color] Secure the players from other weapons.
+[color=blue]Active Weapon: Gun ⊗ SubActive: USP |Command: /usp_c[/color] usual gun.
+[color=blue]Active Weapon: Gun ⊗ SubActive: Desert |Command: /desert_c[/color] gun by high impact.
+[color=blue]Active Weapon: Shotgun ⊛ SubActive: FAMAS |Command: /famas_c[/color] usual shotgun.
+[color=blue]Active Weapon: Rifle ⊙ SubActive: AWP |Command: /awp_c[/color] New Low-speed laser weapon.
+[color=blue]Active Weapon: Rifle ⊙ SubActive: MP4a |Command: /m4a_c[/color] New High-speed laser weapon.
+
+
+
+[b][color=green]/buy[/color][/b] you can use this command to see all items.
+All of these items can be bought from the [b]vote menu[/b](settings).
+
+
+[b][color=green]Notice:[/color][/b]
+________________________________________
+[b][color=green]Bomb:[/color][/b] this mod doesn't have any bomb for terrorist.
+[b][color=green]Buy Zone:[/color][/b] you can buy items just in terrorist or counter terrorist buy zone.
+[b][color=green]Round 1:[/color][/b] in the first round you can't buy any item and you just have a hammer and a knife.
+[b][color=green]Change Sub Active Weapons:[/color][/b] you can use emote Oops or bind a kay for command /st to change sub active weapons (bind s say /st).
+
+
+Server Commands and Settings
+____________________________________________________________________________________
+[code] 
+setting, default, minimum, maximum, info.
+
+sv_roundlimit, 20, 0, 1000,  "Round limit (0 disables)"-----default
+sv_scorelimit, 0, 0, 1000,  "Score limit (0 disables)"
+sv_timelimit, 0, 0, 1000,  "Time limit in minutes (0 disables)"
+
+// CStrike Config
+//---------------------------------------------------Buy
+sv_buy_minehit, 100, 0, 10000,  "money for buy minehit"
+sv_buy_minefreeze, 200, 0, 10000,  "money for buy minefreeze"
+sv_buy_minekill, 300, 0, 10000,  "money for buy minekill"
+sv_buy_smoke, 300, 0, 10000,  "money for buy smoke"
+sv_buy_flash, 200, 0, 10000,  "money for buy flash"
+sv_buy_grenade, 300, 0, 10000,  "money for buy grenade"
+sv_buy_shield, 300, 0, 10000,  "money for buy shield"
+sv_buy_usp, 500, 0, 10000,  "money for buy usp"
+sv_buy_glock, 400, 0, 10000,  "money for buy glock"	
+sv_buy_desert, 650, 0, 10000,  "money for buy desert"
+sv_buy_famas, 2250, 0, 10000,  "money for buy famas"
+sv_buy_rpg, 2250, 0, 10000,  "money for buy rpg"
+sv_buy_awp, 4750, 0, 10000,  "money for buy awp"
+sv_buy_mp4a, 3100, 0, 10000,  "money for buy mp4a"
+sv_buy_ak47, 2500, 0, 10000,  "money for buy ak47"
+
+//--------------------------------------------------ManyAddAmmo
+sv_many_add_minehit, 3, 0, 10000,  "how many add minehit"
+sv_many_add_minefreeze, 5, 0, 10000,  "how many add minefreeze"
+sv_many_add_minekill, 1, 0, 10000,  "how many add minekill"
+sv_many_add_smoke, 1, 0, 10000,  "how many add smoke"
+sv_many_add_flash, 2, 0, 10000,  "how many add flash"
+sv_many_add_grenade, 2, 0, 10000,  "how many add grenade"
+sv_many_add_shield, 2, 0, 10000,  "how many add shield"
+sv_many_add_usp, 112, 0, 10000,  "how many add usp"
+sv_many_add_glock, 140, 0, 10000,  "how many add glock"	
+sv_many_add_desert, 42, 0, 10000,  "how many add desert"
+sv_many_add_famas, 115, 0, 10000,  "how many add famas"
+sv_many_add_rpg, 115, 0, 10000,  "how many add rpg"
+sv_many_add_awp, 40, 0, 10000,  "how many add awp"
+sv_many_add_mp4a, 120, 0, 10000,  "how many add mp4a"
+sv_many_add_ak47, 120, 0, 10000,  "how many add ak47"
+
+//----------------------------------------------------MoneyOneAmmo
+sv_money_one_minehit, 33, 0, 10000,  "money for one minehit"
+sv_money_one_minefreeze, 40, 0, 10000,  "money for one minefreeze"
+sv_money_one_minekill, 300, 0, 10000,  "money for one minekill"
+sv_money_one_smoke, 300, 0, 10000,  "money for one smoke"
+sv_money_one_flash, 100, 0, 10000,  "money for one flash"
+sv_money_one_grenade, 150, 0, 10000,  "money for one grenade"
+sv_money_one_shield, 150, 0, 10000,  "money for one shield"
+sv_money_one_ammo_usp, 2, 0, 10000,  "money for one ammo  usp"
+sv_money_one_ammo_glock, 1, 0, 10000,  "money for one ammo  glock"	
+sv_money_one_ammo_desert, 5, 0, 10000,  "money for one ammo  desert"
+sv_money_one_ammo_famas, 2, 0, 10000,  "money for one ammo  famas"
+sv_money_one_ammo_rpg, 2, 0, 10000,  "money for one ammo  rpg"
+sv_money_one_ammo_awp, 12, 0, 10000,  "money for one ammo  awp"
+sv_money_one_ammo_mp4a, 2, 0, 10000,  "money for one ammo  mp4a"
+sv_money_one_ammo_ak47, 3, 0, 10000,  "money for one ammo  ak47"
+
+//----------------------------------------------------Health
+sv_health_minehit, 1, 0, 10000,  "how many health minehit"//used
+sv_health_minefreeze, 10, 0, 10000,  "how many health minefreeze"//used
+sv_health_minekill, 0, 0, 10000,  "how many health minekill"
+sv_health_smoke, 1, 0, 10000,  "how many health smoke"//used
+sv_health_flash, 1, 0, 10000,  "how many health flash"//used
+sv_health_grenade, 10, 0, 10000,  "how many health grenade"
+sv_health_usp, 1, 0, 10000,  "how many health usp"//used
+sv_health_glock, 1, 0, 10000,  "how many health glock"	
+sv_health_desert, 2, 0, 10000,  "how many health desert"//used
+sv_health_famas, 3, 0, 10000,  "how many health famas"
+sv_health_rpg, 3, 0, 10000,  "how many health rpg"
+sv_health_awp, 2, 0, 10000,  "how many health awp"
+sv_health_mp4a, 1, 0, 10000,  "how many health mp4a"
+sv_health_ak47, 3, 0, 10000,  "how many health ak47"//used
+sv_health_Knife, 5, 0, 10000,  "how many health knife"//used
+
+//----------------------------------------------------MoneyKill
+sv_kill_mine, 30, 0, 10000,  "money for kill by mine"
+sv_kill_hammer, 30, 0, 10000,  "money for kill by hammer"
+sv_kill_knife, 50, 0, 10000,  "money for kill by knife"
+
+//----------------------------------------------------MoneyEndRound
+sv_money_looser, 5000, 0, 10000,  "money that add in player of entered client in game"
+sv_money_winner, 5000, 0, 10000,  "money that can be added at any round for both team"//used
+
+//----------------------------------------------------MoneyKillFlag
+sv_money_teamflag, 200, 0, 10000,  "money for team flag"
+sv_money_whiteflag, 100, 0, 10000,  "money for white flag"
+
+//-----------------------------------------------------Smoke&Flash Lage Time
+sv_smoke_lage_time, 10, 0, 10000,  "time that smoke make lag"
+sv_flash_lage_time, 10, 0, 10000,  "time that flash make lag"
+sv_shield_time, 10, 0, 10000,  "time that player is sheild"
+
+//-----------------------------------------------------Buy Time
+sv_buy_time, 3000, 0, 10000,  "time for buy from shop (sec)"
+
+[/code]
+
+
+[b][color=green]Notice:[/color][/b]
+________________________________________
+[b][color=green]Map:[/color][/b] for create map for this mod use below image, use tiles for creating buy zone.
+[b][color=green]cstrike.cfg:[/color][/b] this file contained all setting that in this mod can be used.
+[b][color=green]SRC:[/color][/b] because this mode is ready for version 0.7 and may be bugs, the source code would not be released.
+
+
+For Create Map Use this entities
+______________________________________________________________________________________________
+[img=PunBB bbcode entities]http://www.imageupload.co.uk/images/2014/09/09/entities.png[/img]
+______________________________________________________________________________________________
+
+
+[b]Binary:[/b] 
+[url=https://mega.co.nz/#!I9AlURoR!tWWgPwBz87KCr8eHqQiIyYD4n_gfkNSNQft6e1n0BJg]	windows 32bit link1[/url]
+[url=http://s5.picofile.com/file/8139852926/CStrike_srv.exe.html]	windows 32bit link2[/url]
+[b]Map:[/b] 
+[url=https://mega.co.nz/#!lxgwGAqI!BcY5kft2bRNgEOTlkGPfbHyznllXFjdfvV1YbyAclpg]	openfng5.map link1[/url]
+[url=http://s5.picofile.com/file/8139853126/openfng5.map.html]	openfng5.map link2[/url]
+[b]CStrike.cfg:[/b] 
+[url=https://mega.co.nz/#!4gBh3ZZQ!tFCseHAyRvIma1OvyqHmADSOHgoDNoBSEVVPry7ILgk]	cstrike.cfg link1[/url]
+[url=http://s5.picofile.com/file/8139853076/cstrike.cfg.html]	cstrike.cfg link2[/url]
+
+
+[b]Bugs[/b]
+Please report any bugs that exist in this mod.
+have fun.
